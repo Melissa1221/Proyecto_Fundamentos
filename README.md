@@ -1,1 +1,2 @@
-# Proyecto_Fundamentos_de_la_programacion
+# Proyecto_Fundamentos
+El objetivo de este proyecto es desarrollar un simulador de incendios forestales en Python, que permita modelar la dinámica de propagación del fuego en un paisaje forestal heterogéneo. El simulador se basa en una matriz bidimensional que representa el terreno, donde cada celda puede contener un árbol, un lago o estar vacía. Los árboles tienen diferentes tipos y probabilidades de incendiarse. Los lagos actúan como barreras que impiden el avance del fuego. El simulador permite visualizar gráficamente el estado del terreno y fuego en cada instante, hasta eventualmente, quemarse.
