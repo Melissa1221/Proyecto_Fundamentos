@@ -3,11 +3,11 @@ from PIL import Image, ImageDraw, ImageFont, ImageTk
 import tkinter as tk
 
 
-def emoji_img(size, text):
-    font = ImageFont.truetype("seguiemj.ttf", size=round(size*3/4)) 
-    im = Image.new("RGBA", (size, size), (255, 255, 255, 0))
-    draw = ImageDraw.Draw(im)
-    draw.text((size/2, size/2), text, embedded_color=True, font=font, anchor="mm")
+def emoji_img(tamaño, texto):
+    fuente = ImageFont.truetype("seguiemj.ttf", size=round(tamaño*3/4)) 
+    im = Image.new("RGBA", (tamaño, tamaño), (255, 255, 255, 0))
+    dibujar = ImageDraw.Draw(im)
+    dibujar.text((tamaño/2, tamaño/2), texto, embedded_color=True, font=fuente, anchor="mm")
     return ImageTk.PhotoImage(im)
 
 n = 30
